@@ -61,6 +61,15 @@ namespace Journey.Exception {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a date not within travel period.
+        /// </summary>
+        public static string DATE_NOT_WITHIN_TRAVEL_PERIOD {
+            get {
+                return ResourceManager.GetString("DATE_NOT_WITHIN_TRAVEL_PERIOD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a The date of the trip must be later than today.
         /// </summary>
         public static string DATE_TRIP_MUST_BE_LATHER_THAN_TODAY {
